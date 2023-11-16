@@ -1,0 +1,34 @@
+1.  add C:\Program Files\nodejs\ and 
+C:\Users\Myself\AppData\Roaming\npm to path
+
+2.  extensions: Material Icon Theme (20mil install), and Mithril Emmet (1mil install), ES7+ React/Redux/React- (9mil install)
+
+3.  ctrl shift P, type "user setting", choose 
+Preferences: Open User Settings (JSON) and 
+paste these line into the setting.json file, 
+notice to put ',' after or before these line
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "*html": "html",
+        "*njk": "html"
+    },
+    "emmet.useInlineCompletions": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact",
+        "vue-html": "html",
+        "vue": "html",
+        "razor": "html",
+        "plaintext": "pug",
+        "django-html": "html"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.showExpandedAbbreviation": "always",
+
+4.  if npm start ask us for react-scripts, type:
+npm install react-icons (this alimama requires it)
+
+
+
+
+

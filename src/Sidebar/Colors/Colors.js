@@ -1,9 +1,15 @@
 import "./Colors.css"
-
+import Input from "../../components/Input"
 function Colors() {
   return (
-    <div>Colors</div>
-  )
+    <div>
+      <Input />
+      <Input />
+      <Input />
+      <Input />
+      <Input />
+    </div>
+  );
 }
 
 export default Colors;

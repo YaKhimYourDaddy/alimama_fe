@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #ccc;
+}
+
+.search {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.links a:hover {
+  background-color: #eee;
+}
+
+.links a.active {
+  background-color: #04AA6D;
+  color: white;
+}

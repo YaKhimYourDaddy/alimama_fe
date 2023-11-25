@@ -1,0 +1,21 @@
+// Terminator:
+npm create vite@latest frontend -- --template react
+cd frontend
+npm i
+cd ..
+npm i nodemon multer mongoose jsonwebtoken express-formidable express-async-handler express dotenv cors cookie-parser concurrently bcryptjs
+cd frontend
+npm i slick-carousel react-slick react-toastify react-router react-router-dom react-redux react-icons apexcharts react-apexcharts moment flowbite axios @reduxjs/toolkit @paypal/react-paypal-js
+npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+// Change in khim/package.json:
+from:
+"test": "echo \"Error: no test specified\" && exit 1"
+to:
+"backend": "nodemon backend/index.js",
+"frontend": "npm run dev --prefix frontend",
+"dev": "concurrently \"npm run frontend\" \"npm run backend\""
+and add:
+"type": "module",
+right after:
+"main": "index.js",

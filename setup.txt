@@ -19,8 +19,3 @@ and add:
 "type": "module",
 right after:
 "main": "index.js",
-
-
-
-
-

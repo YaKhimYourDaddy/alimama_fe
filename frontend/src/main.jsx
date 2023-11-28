@@ -30,14 +30,14 @@ import Favorites from "./pages/Products/Favorites.jsx";
 import ProductDetails from "./pages/Products/ProductDetails.jsx";
 
 import Cart from "./pages/Cart.jsx";
-// import Shop from "./pages/Shop.jsx";
+import Shop from "./pages/Shop.jsx";
 
-// import Shipping from "./pages/Orders/Shipping.jsx";
-// import PlaceOrder from "./pages/Orders/PlaceOrder.jsx";
-// import Order from "./pages/Orders/Order.jsx";
-// import OrderList from "./pages/Admin/OrderList.jsx";
-// import { PayPalScriptProvider } from "@paypal/react-paypal-js";
-// import AdminDashboard from "./pages/Admin/AdminDashboard.jsx";
+import Shipping from "./pages/Orders/Shipping.jsx";
+import PlaceOrder from "./pages/Orders/PlaceOrder.jsx";
+import Order from "./pages/Orders/Order.jsx";
+import OrderList from "./pages/Admin/OrderList.jsx";
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+import AdminDashboard from "./pages/Admin/AdminDashboard.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -48,14 +48,14 @@ const router = createBrowserRouter(
       <Route path="/favorite" element={<Favorites />} />
       <Route path="/product/:id" element={<ProductDetails />} />
       <Route path="/cart" element={<Cart />} />
-      {/* <Route path="/shop" element={<Shop />} />  */}
+      <Route path="/shop" element={<Shop />} /> 
 
       {/* Registered users */}
       <Route path="" element={<PrivateRoute />}>
         <Route path="/profile" element={<Profile />} />
-        {/* <Route path="/shipping" element={<Shipping />} /> */}
-        {/* <Route path="/placeorder" element={<PlaceOrder />} /> */}
-        {/* <Route path="/order/:id" element={<Order />} /> */}
+        <Route path="/shipping" element={<Shipping />} />
+        <Route path="/placeorder" element={<PlaceOrder />} />
+        <Route path="/order/:id" element={<Order />} />
       </Route>
 
       {/* Admin Routes */}
@@ -64,10 +64,10 @@ const router = createBrowserRouter(
         <Route path="categorylist" element={<CategoryList />} />
         <Route path="productlist" element={<ProductList />} />
         <Route path="allproductslist" element={<AllProducts />} />
-        {/* <Route path="productlist/:pageNumber" element={<ProductList />} /> */}
+        <Route path="productlist/:pageNumber" element={<ProductList />} />
         <Route path="product/update/:_id" element={<ProductUpdate />} />
-        {/* <Route path="orderlist" element={<OrderList />} /> */}
-        {/* <Route path="dashboard" element={<AdminDashboard />} /> */}
+        <Route path="orderlist" element={<OrderList />} />
+        <Route path="dashboard" element={<AdminDashboard />} />
       </Route>
     </Route>
   )
@@ -75,8 +75,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
-    {/* <PayPalScriptProvider> */}
+    <PayPalScriptProvider>
       <RouterProvider router={router} />
-    {/* </PayPalScriptProvider> */}
+    </PayPalScriptProvider>
   </Provider>
 );

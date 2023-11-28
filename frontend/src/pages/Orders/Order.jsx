@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
 import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import Messsage from "../../components/Message";
@@ -8,7 +7,6 @@ import Loader from "../../components/Loader";
 import {
   useDeliverOrderMutation,
   useGetOrderDetailsQuery,
-  useGetPaypalClientIdQuery,
   usePayOrderMutation,
 } from "../../redux/api/orderApiSlice";
 
@@ -27,34 +25,6 @@ const Order = () => {
     useDeliverOrderMutation();
   const { userInfo } = useSelector((state) => state.auth);
 
-  const [{ isPending }, paypalDispatch] = usePayPalScriptReducer();
-
-  const {
-    data: paypal,
-    isLoading: loadingPaPal,
-    error: errorPayPal,
-  } = useGetPaypalClientIdQuery();
-
-  useEffect(() => {
-    if (!errorPayPal && !loadingPaPal && paypal.clientId) {
-      const loadingPaPalScript = async () => {
-        paypalDispatch({
-          type: "resetOptions",
-          value: {
-            "client-id": paypal.clientId,
-            currency: "USD",
-          },
-        });
-        paypalDispatch({ type: "setLoadingStatus", value: "pending" });
-      };
-
-      if (order && !order.isPaid) {
-        if (!window.paypal) {
-          loadingPaPalScript();
-        }
-      }
-    }
-  }, [errorPayPal, loadingPaPal, order, paypal, paypalDispatch]);
 
   function onApprove(data, actions) {
     return actions.order.capture().then(async function (details) {
@@ -198,13 +168,13 @@ const Order = () => {
               <Loader />
             ) : (
               <div>
-                <div>
-                  <PayPalButtons
-                    createOrder={createOrder}
-                    onApprove={onApprove}
-                    onError={onError}
-                  ></PayPalButtons>
-                </div>
+                <button
+                  type="button"
+                  className="bg-pink-500 text-white w-full py-2"
+                  onClick={handleSimplePayment}
+                >
+                  Complete Payment
+                </button>
               </div>
             )}
           </div>

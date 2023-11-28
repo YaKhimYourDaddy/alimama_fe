@@ -1,0 +1,8 @@
+
+-   dô terminal:
+cd alimama_fe
+npm i
+cd frontend
+npm i
+cd ..
+npm run dev

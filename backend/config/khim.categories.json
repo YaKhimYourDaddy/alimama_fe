@@ -1,0 +1,188 @@
+[
+  {
+    "_id": "638c1a558854d010284050b4",
+    "name": "Electronics",
+    "description": "A wide range of electronic devices and gadgets.",
+    "image": "/images/electronics_category.jpg",
+    "subcategories": [
+      "638c1a558854d010284050b5",
+      "638c1a558854d010284050b7",
+      "638c1a558854d010284050b9"
+    ]
+  },
+  {
+    "_id": "638c1a558854d010284050b5",
+    "name": "Audio & Video",
+    "description": "A selection of audio and video equipment.",
+    "image": "/images/audio_video_category.jpg",
+    "parent": "638c1a558854d010284050b4"
+  },
+  {
+    "_id": "638c1a558854d010284050b7",
+    "name": "Home Appliances",
+    "description": "Essential appliances for your home.",
+    "image": "/images/home_appliances_category.jpg",
+    "parent": "638c1a558854d010284050b4"
+  },
+  {
+    "_id": "638c1a558854d010284050b9",
+    "name": "Sports & Fitness",
+    "description": "Equipment and apparel for sports and fitness enthusiasts.",
+    "image": "/images/sports_fitness_category.jpg",
+    "parent": "638c1a558854d010284050b4"
+  },
+  {
+    "_id": "638c1a558854d010284050b8",
+    "name": "Food & Beverages",
+    "description": "A variety of delicious food and beverages.",
+    "image": "/images/food_beverages_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050b3",
+    "name": "Kitchen",
+    "description": "Essential tools and equipment for your kitchen.",
+    "image": "/images/kitchen_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050ba",
+    "name": "Clothing & Accessories",
+    "description": "A wide range of clothing and accessories for men, women, and children.",
+    "image": "/images/clothing_accessories_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050bb",
+    "name": "Beauty & Personal Care",
+    "description": "Products for beauty, skincare, and personal care.",
+    "image": "/images/beauty_personal_care_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050bc",
+    "name": "Home & Garden",
+    "description": "Products for your home and garden.",
+    "image": "/images/home_garden_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050bd",
+    "name": "Pets",
+    "description": "Everything you need for your furry friend.",
+    "image": "/images/pets_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050be",
+    "name": "Toys & Games",
+    "description": "Fun and engaging toys and games for all ages.",
+    "image": "/images/toys_games_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050bf",
+    "name": "Books & Music",
+    "description": "A selection of books, audiobooks, and music.",
+    "image": "/images/books_music_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c0",
+    "name": "Office Supplies",
+    "description": "Essential tools and supplies for your office.",
+    "image": "/images/office_supplies_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c1",
+    "name": "Arts & Crafts",
+    "description": "Materials and tools for creative expression.",
+    "image": "/images/arts_crafts_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c2",
+    "name": "Travel",
+    "description": "Luggage, travel accessories, and travel guides.",
+    "image": "/images/travel_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c3",
+    "name": "Baby & Kids",
+    "description": "Products for babies, toddlers, and children.",
+    "image": "/images/baby_kids_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c4",
+    "name": "Health & Wellness",
+    "description": "Products for health and well-being.",
+    "image": "/images/health_wellness_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c5",
+    "name": "Pet Supplies",
+    "description": "Food, treats, toys, and accessories for your pet.",
+    "image": "/images/pet_supplies_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c6",
+    "name": "Musical Instruments",
+    "description": "A wide range of musical instruments for all levels.",
+    "image": "/images/musical_instruments_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c7",
+    "name": "Outdoor Gear",
+    "description": "Equipment and apparel for camping, hiking, and other outdoor activities.",
+    "image": "/images/outdoor_gear_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c8",
+    "name": "Party Supplies",
+    "description": "Decorations, tableware, and accessories for your next party.",
+    "image": "/images/party_supplies_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050c9",
+    "name": "Collectibles",
+    "description": "Rare and valuable items for collectors.",
+    "image": "/images/collectibles_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050ca",
+    "name": "Handmade",
+    "description": "Unique and handcrafted items from independent creators.",
+    "image": "/images/handmade_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050cb",
+    "name": "Vintage",
+    "description": "Antique and vintage items from a bygone era.",
+    "image": "/images/vintage_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050cc",
+    "name": "Digital Goods",
+    "description": "E-books, music downloads, and other digital products.",
+    "image": "/images/digital_goods_category.jpg",
+    "subcategories": []
+  },
+  {
+    "_id": "638c1a558854d010284050cd",
+    "name": "Other",
+    "description": "Products that don't fit into any other category.",
+    "image": "/images/other_category.jpg",
+    "subcategories": []
+  }
+]

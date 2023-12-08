@@ -1,0 +1,489 @@
+[
+  {
+    "_id": {
+      "$oid": "6565b5219e480f1cc8c2e6c3"
+    },
+    "name": "Gaming Keyboard",
+    "image": "/uploads/image.img",
+    "brand": "Amazon",
+    "quantity": 5,
+    "category": {
+      "$oid": "65659cfdb0b381b7af0334dc"
+    },
+    "description": "Red switch",
+    "rating": 0,
+    "numReviews": 0,
+    "price": 200,
+    "countInStock": 0,
+    "reviews": [],
+    "createdAt": {
+      "$date": "2023-11-28T09:38:41.778Z"
+    },
+    "updatedAt": {
+      "$date": "2023-11-28T09:38:41.778Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da96f"
+    },
+    "name": "Laptop",
+    "image": "/images/laptop.jpg",
+    "brand": "Apple",
+    "quantity": 10,
+    "category": "638c1a558854d010284050b4",
+    "description": "A powerful and versatile laptop for work or play.",
+    "reviews": [
+      {
+        "name": "Alice Jones",
+        "rating": 4.5,
+        "comment": "This laptop is great for students and professionals."
+      }
+    ],
+    "rating": 4.5,
+    "numReviews": 1,
+    "price": 1000,
+    "countInStock": 10
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da970"
+    },
+    "name": "Headphones",
+    "image": "/images/headphones.jpg",
+    "brand": "Sony",
+    "quantity": 75,
+    "category": "638c1a558854d010284050b5",
+    "description": "Noise-canceling headphones for an immersive audio experience.",
+    "reviews": [
+      {
+        "name": "Bob Brown",
+        "rating": 5,
+        "comment": "These headphones are amazing! I can't hear anything else when I have them on."
+      }
+    ],
+    "rating": 4.8,
+    "numReviews": 10,
+    "price": 50,
+    "countInStock": 75
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da971"
+    },
+    "name": "Smartphone",
+    "image": "/images/smartphone.jpg",
+    "brand": "Samsung",
+    "quantity": 150,
+    "category": "638c1a558854d010284050b4",
+    "description": "A powerful smartphone with a long-lasting battery.",
+    "reviews": [
+      {
+        "name": "Charlie Smith",
+        "rating": 4,
+        "comment": "This phone is great for everyday use."
+      }
+    ],
+    "rating": 4.3,
+    "numReviews": 15,
+    "price": 600,
+    "countInStock": 150
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da972"
+    },
+    "name": "Smartwatch",
+    "image": "/images/smartwatch.jpg",
+    "brand": "Fitbit",
+    "quantity": 40,
+    "category": "638c1a558854d010284050b5",
+    "description": "A fitness tracker with a built-in GPS and heart rate monitor.",
+    "reviews": [
+      {
+        "name": "David Lee",
+        "rating": 5,
+        "comment": "This smartwatch is perfect for tracking my fitness goals."
+      }
+    ],
+    "rating": 4.9,
+    "numReviews": 5,
+    "price": 200,
+    "countInStock": 40
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da973"
+    },
+    "name": "Camera",
+    "image": "/images/camera.jpg",
+    "brand": "Canon",
+    "quantity": 30,
+    "category": "638c1a558854d010284050b6",
+    "description": "A high-quality DSLR camera for professional photographers.",
+    "reviews": [
+      {
+        "name": "Emily Clark",
+        "rating": 5,
+        "comment": "This camera is amazing! I can take professional-quality photos with it."
+      }
+    ],
+    "rating": 4.9,
+    "numReviews": 2,
+    "price": 1500,
+    "countInStock": 30
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da974"
+    },
+    "name": "Drone",
+    "image": "/images/drone.jpg",
+    "brand": "DJI",
+    "quantity": 20,
+    "category": "638c1a558854d0102b7",
+    "description": "A high-quality drone for capturing aerial photography and video.",
+    "reviews": [
+      {
+        "name": "Frank Lee",
+        "rating": 4.5,
+        "comment": "This drone is great for taking aerial photos and videos."
+      }
+    ],
+    "rating": 4.8,
+    "numReviews": 4,
+    "price": 800,
+    "countInStock": 20
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da975"
+    },
+    "name": "Gaming Console",
+    "image": "/images/gaming_console.jpg",
+    "brand": "Sony",
+    "quantity": 25,
+    "category": "638c1a558854d010284050b7",
+    "description": "A powerful gaming console for an immersive gaming experience.",
+    "reviews": [
+      {
+        "name": "George Brown",
+        "rating": 5,
+        "comment": "This gaming console is amazing! The graphics are incredible."
+      }
+    ],
+    "rating": 4.9,
+    "numReviews": 3,
+    "price": 400,
+    "countInStock": 25
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da976"
+    },
+    "name": "Virtual Reality Headset",
+    "image": "/images/vr_headset.jpg",
+    "brand": "Oculus",
+    "quantity": 15,
+    "category": "638c1a558854d010284050b7",
+    "description": "A virtual reality headset that allows you to escape to different worlds.",
+    "reviews": [
+      {
+        "name": "Hannah Johnson",
+        "rating": 5,
+        "comment": "This VR headset is so much fun! I can't wait to explore more virtual worlds."
+      }
+    ],
+    "rating": 4.8,
+    "numReviews": 2,
+    "price": 300,
+    "countInStock": 15
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da977"
+    },
+    "name": "Speakers",
+    "image": "/images/speakers.jpg",
+    "brand": "Bose",
+    "quantity": 70,
+    "category": "638c1a558854d010284050b5",
+    "description": "High-quality speakers for an immersive listening experience.",
+    "reviews": [
+      {
+        "name": "Ian Miller",
+        "rating": 4.5,
+        "comment": "These speakers are great for listening to music and watching movies."
+      }
+    ],
+    "rating": 4.7,
+    "numReviews": 8,
+    "price": 200,
+    "countInStock": 70
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da978"
+    },
+    "name": "Headphones",
+    "image": "/images/headphones2.jpg",
+    "brand": "Beats",
+    "quantity": 50,
+    "category": "638c1a558854d010284050b5",
+    "description": "Noise-canceling headphones for an immersive audio experience.",
+    "reviews": [
+      {
+        "name": "Jessica Smith",
+        "rating": 5,
+        "comment": "These headphones are amazing! I can't hear anything else when I have them on."
+      }
+    ],
+    "rating": 4.8,
+    "numReviews": 10,
+    "price": 150,
+    "countInStock": 50
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da979"
+    },
+    "name": "Tablet",
+    "image": "/images/tablet.jpg",
+    "brand": "Apple",
+    "quantity": 45,
+    "category": "638c1a558854d010284050b4",
+    "description": "A portable tablet for work, play, and entertainment.",
+    "reviews": [
+      {
+        "name": "Kevin Lee",
+        "rating": 4.5,
+        "comment": "This tablet is perfect for reading, watching movies, and playing games."
+      }
+    ],
+    "rating": 4.5,
+    "numReviews": 1,
+    "price": 500,
+    "countInStock": 45
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da97a"
+    },
+    "name": "Ebook Reader",
+    "image": "/images/ebook_reader.jpg",
+    "brand": "Kindle",
+    "quantity": 35,
+    "category": "638c1a558854d010284050b7",
+    "description": "A portable ebook reader for reading books on the go.",
+    "reviews": [
+      {
+        "name": "Lisa Brown",
+        "rating": 5,
+        "comment": "This ebook reader is great for carrying around my entire library of books."
+      }
+    ],
+    "rating": 4.9,
+    "numReviews": 8,
+    "price": 100,
+    "countInStock": 35
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da97b"
+    },
+    "name": "Smart Home Speaker",
+    "image": "/images/smart_home_speaker.jpg",
+    "brand": "Google",
+    "quantity": 20,
+    "category": "638c1a558854d010284050b7",
+    "description": "A smart home speaker that allows you to control your smart home devices with your voice.",
+    "reviews": [
+      {
+        "name": "Mark Smith",
+        "rating": 4,
+        "comment": "This smart home speaker is great for controlling my lights and thermostat."
+      }
+    ],
+    "rating": 4.3,
+    "numReviews": 5,
+    "price": 75,
+    "countInStock": 20
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da97c"
+    },
+    "name": "Coffee Machine",
+    "image": "/images/coffee_machine.jpg",
+    "brand": "Breville",
+    "quantity": 15,
+    "category": "638c1a558854d010284050b3",
+    "description": "A high-quality coffee machine for making barista-quality coffee at home.",
+    "reviews": [
+      {
+        "name": "Nancy Johnson",
+        "rating": 5,
+        "comment": "This coffee machine is amazing! I can make delicious coffee at home now."
+      }
+    ],
+    "rating": 4.8,
+    "numReviews": 4,
+    "price": 300,
+    "countInStock": 15
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da97d"
+    },
+    "name": "Blender",
+    "image": "/images/blender.jpg",
+    "brand": "Vitamix",
+    "quantity": 10,
+    "category": "638c1a558854d010284050b3",
+    "description": "A powerful blender for making smoothies, soups, and other healthy drinks.",
+    "reviews": [
+      {
+        "name": "Oscar Lee",
+        "rating": 4.5,
+        "comment": "This blender is great for making healthy smoothies and shakes."
+      }
+    ],
+    "rating": 4.7,
+    "numReviews": 3,
+    "price": 200,
+    "countInStock": 10
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da97e"
+    },
+    "name": "Toaster",
+    "image": "/images/toaster.jpg",
+    "brand": "Toastmaster",
+    "quantity": 12,
+    "category": "638c1a558854d010284050b3",
+    "description": "A high-quality toaster for making perfectly toasted bread.",
+    "reviews": [
+      {
+        "name": "Patricia Miller",
+        "rating": 5,
+        "comment": "This toaster is amazing! It makes perfect toast every time."
+      }
+    ],
+    "rating": 4.9,
+    "numReviews": 2,
+    "price": 50,
+    "countInStock": 12
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da97f"
+    },
+    "name": "Vacuum Cleaner",
+    "image": "/images/vacuum_cleaner.jpg",
+    "brand": "Dyson",
+    "quantity": 8,
+    "category": "638c1a558854d010284050b5",
+    "description": "A powerful vacuum cleaner for cleaning your home quickly and easily.",
+    "reviews": [
+      {
+        "name": "Peter Brown",
+        "rating": 4.5,
+        "comment": "This vacuum cleaner is great for cleaning carpets and hard floors."
+      }
+    ],
+    "rating": 4.7,
+    "numReviews": 5,
+    "price": 400,
+    "countInStock": 8
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da980"
+    },
+    "name": "Air Purifier",
+    "image": "/images/air_purifier.jpg",
+    "brand": "Levoit",
+    "quantity": 20,
+    "category": "638c1a558854d010284050b5",
+    "description": "An air purifier that removes allergens and pollutants from the air.",
+    "reviews": [
+      {
+        "name": "Rachel Smith",
+        "rating": 5,
+        "comment": "This air purifier has helped me breathe easier and sleep better."
+      }
+    ],
+    "rating": 4.8,
+    "numReviews": 3,
+    "price": 150,
+    "countInStock": 20
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da981"
+    },
+    "name": "Humidifier",
+    "image": "/images/humidifier.jpg",
+    "brand": "Honeywell",
+    "quantity": 15,
+    "category": "638c1a558854d010284050b5",
+    "description": "A humidifier that adds moisture to the air and helps prevent dry skin and respiratory problems.",
+    "reviews": [
+      {
+        "name": "Stephanie Lee",
+        "rating": 4,
+        "comment": "This humidifier has helped me sleep better during the winter months."
+      }
+    ],
+    "rating": 4.2,
+    "numReviews": 7,
+    "price": 75,
+    "countInStock": 15
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da982"
+    },
+    "name": "Diffuser",
+    "image": "/images/diffuser.jpg",
+    "brand": "Young Living",
+    "quantity": 10,
+    "category": "638c1a558854d010284050b3",
+    "description": "A diffuser that releases essential oils into the air to create a relaxing and aromatic atmosphere.",
+    "reviews": [
+      {
+        "name": "Thomas Brown",
+        "rating": 5,
+        "comment": "This diffuser is amazing! It fills my home with a beautiful scent."
+      }
+    ],
+    "rating": 4.8,
+    "numReviews": 2,
+    "price": 50,
+    "countInStock": 10
+  },
+  {
+    "_id": {
+      "$oid": "6572b2f69486ffa1e30da983"
+    },
+    "name": "Yoga Mat",
+    "image": "/images/yoga_mat.jpg",
+    "brand": "Manduka",
+    "quantity": 18,
+    "category": "638c1a558854d010284050b9",
+    "description": "A high-quality yoga mat for your yoga practice.",
+    "reviews": [
+      {
+        "name": "Victoria Johnson",
+        "rating": 4.5,
+        "comment": "This yoga mat is great for providing support and grip during your practice."
+      }
+    ],
+    "rating": 4.7,
+    "numReviews": 4,
+    "price": 75,
+    "countInStock": 18
+  }
+]

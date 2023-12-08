@@ -1,0 +1,35 @@
+[
+{
+  "_id": {
+    "$oid": "6572b5359486ffa1e30da987"
+  },
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+  "isAdmin": false,
+  "orders": [
+    "638c1a558854d010284050b0"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6572b5359486ffa1e30da988"
+  },
+  "name": "Jane Doe",
+  "email": "janedoe@example.com",
+  "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+  "isAdmin": false,
+  "orders": [
+    "638c1a558854d010284050b1"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6572b5359486ffa1e30da989"
+  },
+  "name": "Alice Jones",
+  "email": "alicejones@example.com",
+  "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+  "isAdmin": false,
+  "orders": []
+}]

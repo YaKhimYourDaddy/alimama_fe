@@ -1,0 +1,167 @@
+[
+    {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": [
+            "638c1a558854d010284050b0"
+        ]
+    },
+    {
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": [
+            "638c1a558854d010284050b1"
+        ]
+    },
+    {
+        "name": "Alice Jones",
+        "email": "alicejones@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Bob Brown",
+        "email": "bobbrown@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Charlie Smith",
+        "email": "charliesmith@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "David Lee",
+        "email": "davidlee@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Emily Clark",
+        "email": "emilyclark@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Frank Lee",
+        "email": "franklee@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "George Brown",
+        "email": "georgebrown@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Hannah Johnson",
+        "email": "hannahjohnson@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Ian Miller",
+        "email": "ianmiller@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Jessica Smith",
+        "email": "jessicasmith@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Kevin Lee",
+        "email": "kevinlee@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Lisa Brown",
+        "email": "lisabrown@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Mark Smith",
+        "email": "marksmith@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Nancy Johnson",
+        "email": "nancyjohnson@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Oscar Lee",
+        "email": "oscarlee@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Patricia Miller",
+        "email": "patriciamiller@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Peter Brown",
+        "email": "peterbrown@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Rachel Smith",
+        "email": "rachelsmith@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Stephanie Lee",
+        "email": "stephanielee@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Thomas Brown",
+        "email": "thomasbrown@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    },
+    {
+        "name": "Victoria Johnson",
+        "email": "victoriajohnson@example.com",
+        "password": "$2a$10$yCf1M5zFYV4EdhyYpd8V6eCdkWFULnzGRBMOmoUrZiqTO1g5sVLx.",
+        "isAdmin": false,
+        "orders": []
+    }
+]
